@@ -1,8 +1,11 @@
-# todo_app
+# Todo App
 
 A new Flutter application.
 
 ## Getting Started
+
+![Apple iPhone 11 Pro Max Presentation (20)](https://user-images.githubusercontent.com/54605034/145461792-5348826f-4a41-437e-a9f9-26c7cf9e6e14.png)
+
 
 This project is a starting point for a Flutter application.
 
