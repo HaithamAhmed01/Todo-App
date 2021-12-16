@@ -92,9 +92,6 @@ class HomeLayout extends StatelessWidget {
                                   defaultFormField(
                                     controller: titleController,
                                     keyboardType: TextInputType.text,
-                                    onTap: () {
-                                      titleController.clear();
-                                    },
                                     validate: (String? value) {
                                       if (value!.isEmpty) {
                                         return 'text must not be empty';
@@ -126,7 +123,6 @@ class HomeLayout extends StatelessWidget {
                                         timeController.text =
                                             value!.format(context).toString();
                                       });
-                                      timeController.clear();
                                     },
                                   ),
                                   SizedBox(
@@ -153,7 +149,6 @@ class HomeLayout extends StatelessWidget {
                                         dateController.text =
                                             DateFormat.yMMMd().format(value!);
                                       });
-                                      dateController.clear();
                                     },
                                   ),
                                 ],
@@ -167,6 +162,9 @@ class HomeLayout extends StatelessWidget {
                       .then((value) {
                     cubit.changeBottomSheetState(
                         isShow: false, icon: Icons.edit);
+                    titleController.clear();
+                    timeController.clear();
+                    dateController.clear();
                   });
                   cubit.changeBottomSheetState(isShow: true, icon: Icons.add);
                 }
