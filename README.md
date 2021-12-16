@@ -4,7 +4,8 @@ A new Flutter application.
 
 ## Getting Started
 
-![Apple iPhone 11 Pro Max Presentation (20)](https://user-images.githubusercontent.com/54605034/145461792-5348826f-4a41-437e-a9f9-26c7cf9e6e14.png)
+![Apple iPhone 11 Pro Max Presentation (21)](https://user-images.githubusercontent.com/54605034/146380810-fcfb75c0-8aea-4ea8-b7b9-302140a2cabf.png)
+
 
 
 This project is a starting point for a Flutter application.
