@@ -4,6 +4,10 @@ A new Flutter application.
 
 ## Getting Started
 
+Flutter application using Bloc,  Sqflite, and shared preferences.
+
+Tasklist is a ToDo List app for Task Management inspired by the design below in the link
+
 ![Apple iPhone 11 Pro Max Presentation (21)](https://user-images.githubusercontent.com/54605034/146380810-fcfb75c0-8aea-4ea8-b7b9-302140a2cabf.png)
 
 
